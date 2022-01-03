@@ -13,10 +13,48 @@
     
 }
 
+/*----------------------
+ top-part style 
+-----------------*/
+.top-part{
+    background: #3341A1;
+    
+}
+nav > ul{
+    display: flex;
+    
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.nav-items li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login button{
+    background-color: #E14A6D;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
 /*--------
  player style 
 ----------*/
-.player_container{
+.main-container{
+    margin-top: 60px;
+}
+
+.container{
     width: 55%;
     margin: auto;
 }
