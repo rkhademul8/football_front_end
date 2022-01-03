@@ -16,7 +16,7 @@
 /*--------
  player style 
 ----------*/
-.container{
+.player_container{
     width: 55%;
     margin: auto;
 }
@@ -50,4 +50,63 @@
     font-weight: normal;
     text-align: justify;
     line-height: 26px;
+}
+
+/*------------
+ highlight part style 
+-------------*/
+.highlight-main{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    padding: 80px 0px;
+}
+.highlight-content h1{
+    color: #0A0826;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 15px 0px;
+}
+.highlight-content p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+.highlight-content button{
+    background-color: #E14A6D;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+.highlight-thumbnail img{
+    width: 522px;
+    
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content img{
+    width: 483.87px;
+    height: 110px;
+}
+.icons{
+    margin-bottom: 15px;
+}
+.icons i{
+    margin: 10px;
+    color: gray;
+    background: rgb(224, 221, 221);
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer-content span{
+    color:#000000;
+    font-size: 18px;
+    padding: 20px 0px;
 }
