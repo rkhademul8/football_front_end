@@ -101,6 +101,7 @@ nav > ul{
 .player{
     box-shadow: 5px 7px 40px rgb(214, 212, 212);
     padding: 15px;
+    margin-bottom: 21px;
 }
 .player img{
     width: 300px;
@@ -239,7 +240,7 @@ nav > ul{
 
     .player{
         text-align: center;
-        margin-bottom: 20px;
+        
     }
     
     .highlight-content h1 {
@@ -304,17 +305,21 @@ nav > ul{
         grid-row-gap: 25px;
         
     }
+
+    .player{
+       text-align: center;
+        margin-bottom: 0px;
+    }
     
     .highlight-content h1 {
-        font-size: 40px;
-       
+        font-size: 30px;
     }
     .highlight-content button {
         
         margin-bottom: 25px;
     }
     .highlight-thumbnail img {
-        width: 337px;
+        width: 420px;
     }
     .footer-content img {
         width: 295.87px;
