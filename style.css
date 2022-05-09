@@ -214,8 +214,11 @@ nav > ul{
     }
     .copa-main{
        
-        grid-template-columns: repeat(1,1fr);
-        
+        grid-template-columns: repeat(1,1fr); 
+    }
+
+    .copa-content {
+        text-align: center;
     }
     .copa-content h1 {
         font-size: 30px;
@@ -233,6 +236,11 @@ nav > ul{
         grid-template-columns: repeat(1,1fr);   
         margin-bottom: 0px;  
     }
+
+    .player{
+        text-align: center;
+        margin-bottom: 20px;
+    }
     
     .highlight-content h1 {
         font-size: 44px;
@@ -243,7 +251,7 @@ nav > ul{
         margin-bottom: 25px;
     }
     .highlight-thumbnail img {
-        width: 330px;
+        width: 345px;
     }
     .footer-content img {
         width: 295.87px;
@@ -273,11 +281,11 @@ nav > ul{
         width: 90%;
         margin: auto;
     }
+    
     .copa-main{
-       
-        grid-template-columns: repeat(2,1fr);
-        
+        grid-template-columns: repeat(2,1fr);   
     }
+
     .copa-content h1 {
         font-size: 30px;
         
